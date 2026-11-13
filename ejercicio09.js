@@ -3,8 +3,13 @@
 
 //escribe tu función aquí. Recuerda que el nombre de la función debe ser exactamente "calcularPromedio" y que debe recibir exactamente 5 parámetros
 
-
+calcularPromedio = (n1, n2, n3, n4, n5) => {
+    // Calcula la suma de los 5 números
+    const suma = n1 + n2 + n3 + n4 + n5;
+    // Calcula el promedio dividiendo la suma entre 5
+    const promedio = suma / 5;
+    // Devuelve el promedio
+    return promedio;
+}
 // Exporta la función para que pueda ser utilizada en las pruebas
-module.exports = {
-    calcularPromedio
-};
+module.exports = { calcularPromedio };
